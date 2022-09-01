@@ -84,7 +84,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  background-color:grey;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -7373,6 +7373,8 @@ textarea.form-control-lg {
 
 .mb-4 {
   margin-bottom: 1.5rem !important;
+
+
 }
 
 .mb-5 {
@@ -7579,6 +7581,7 @@ textarea.form-control-lg {
 
 .p-4 {
   padding: 1.5rem !important;
+
 }
 
 .p-5 {
@@ -7643,6 +7646,8 @@ textarea.form-control-lg {
 .py-5 {
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/NIST_Precision_engineering_research.jpg/420px-NIST_Precision_engineering_research.jpg);
+  background-size:cover;
 }
 
 .pt-0 {
@@ -7957,9 +7962,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
-
 .bg-secondary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
@@ -7986,7 +7989,7 @@ textarea.form-control-lg {
 }
 
 .bg-light {
-  --bs-bg-opacity: 1;
+  --bs-bg-opacity: .6;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
 }
 
